@@ -1,0 +1,34 @@
+/*reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*commons*/
+main{
+    background-color: black;
+}
+section{
+    background-color:blueviolet;
+}
+img{
+    width: 32%;
+}
+
+/*utilities*/
+
+/*layout*/
+
+.table-structure{
+    background-color: green;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items-structure{
+    width:calc(100% / 3);
+
+}
