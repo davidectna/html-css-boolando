@@ -7,7 +7,7 @@
 
 /*commons*/
 main{
-    background-color: violet;
+    background-color:#ffffff;
 }
 img{
     width: 100%;
@@ -24,24 +24,12 @@ h2{
 p{
     color: #ff0000;
     font-family:  'Inter', sans-serif;
+    font-size: 10px;
 }
 
-/*utilities*/
-
-.sale-font-style{
-    color: #000000;
-    text-decoration: line-through;
-}
-.advice-items-first-exception{
-    position: absolute;
-    background-color: #00875a;
-    padding: 1%;
-    bottom: 3%;
-    left: 0%;
-}
 /*layout*/
 .table-structure{
-    background-color:green;
+    background-color:#ffffff;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -60,7 +48,7 @@ p{
 
 .photos-structure{
     position: relative;
-    font-size: 10px;
+    font-size: 9px;
 }
 /*products*/
 .favorite-items{
@@ -86,7 +74,28 @@ p{
     background-color: #00875a;
     padding: 1%;
     bottom: 3%;
-    left: 10%;
+    left: 27.5px;
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
+}
+
+/*effect*/
+
+.favorite-items:hover{
+ color: red;
+}
+/*utilities*/
+
+.sale-font-style{
+    color: #000000;
+    text-decoration: line-through;
+}
+.advice-items-first-exception{
+    position: absolute;
+    background-color: #00875a;
+    padding: 1%;
+    bottom: 3%;
+    left: 0%;
     font-family: 'Roboto', sans-serif;
     color:#ffffff;
 }
