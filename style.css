@@ -7,28 +7,76 @@
 
 /*commons*/
 main{
-    background-color: black;
-}
-section{
-    background-color:blueviolet;
+    background-color: violet;
 }
 img{
-    width: 32%;
+    width: 100%;
+    
+}
+h1{
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-size: 8px;
+    font-family:'Raleway', sans-serif;
+}
+p{
+    color: #ff0000;
+    font-family:  'Inter', sans-serif;
 }
 
 /*utilities*/
 
-/*layout*/
+.discount-style{
+    color: #000000;
+    text-decoration: line-through;
+}
 
+/*layout*/
 .table-structure{
-    background-color: green;
+    background-color:green;
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 2%;
 }
 
 .items-structure{
     width:calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
 
+.photos-structure{
+    position: relative;
+    font-size: 10px;
+}
+/*products*/
+.favorite-items{
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    background-color: #ffffff;
+    padding: 2% 3%;
+    font-size: 15px;
+}
+.discount-items{
+    position: absolute;
+    background-color:#eb0037;
+    bottom: 3%;
+    left: 0%;
+    padding: 1%
+}
+
+.advice-items{
+    position: absolute;
+    background-color: #00875a;
+    padding: 1%;
+    bottom: 3%;
+    left: 10%;
 }
