@@ -28,11 +28,17 @@ p{
 
 /*utilities*/
 
-.discount-style{
+.sale-font-style{
     color: #000000;
     text-decoration: line-through;
 }
-
+.advice-items-first-exception{
+    position: absolute;
+    background-color: #00875a;
+    padding: 1%;
+    bottom: 3%;
+    left: 0%;
+}
 /*layout*/
 .table-structure{
     background-color:green;
@@ -70,7 +76,9 @@ p{
     background-color:#eb0037;
     bottom: 3%;
     left: 0%;
-    padding: 1%
+    padding: 1%;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
 }
 
 .advice-items{
@@ -79,4 +87,7 @@ p{
     padding: 1%;
     bottom: 3%;
     left: 10%;
+    font-family: 'Roboto', sans-serif;
+    color:#ffffff;
 }
+
